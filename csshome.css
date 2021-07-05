@@ -1,0 +1,28 @@
+.isi{
+    height:60vh ;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    background-image: url(pemandangan.jpeg);  
+    background-size: cover; 
+}
+.isi::after{
+    display: block;
+    position: absolute;
+    content: "";
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+
+}
+h2{
+    color:white;
+    z-index: 5;
+    border: 3px solid;
+    padding: 20PX 25px;
+}
+section{
+    padding: 50px 0;
+}

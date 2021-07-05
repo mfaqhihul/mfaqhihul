@@ -1,0 +1,39 @@
+h1 {
+    color :black;
+    font-style: normal; font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center; font-weight: bold;
+}
+head {background-color: blue;}
+p{
+    font-size: medium; 
+    font-weight: inherit;
+    font-style: normal;
+    font-family:'Times New Roman', Times, serif;
+}
+body {
+    background-image: url(kertas.jpg);
+}
+img {
+    border: 5px black solid;
+}
+table {
+    width: 100%;
+    height: 20px auto;
+    table-layout: auto;
+}
+.fixed {
+    table-layout: fixed;
+}
+
+table,
+td,
+th{
+    border-collapse: collapse;
+}
+th,
+td{
+    padding: 10px;
+    border: solid 1px;
+    text-align: justify;
+}

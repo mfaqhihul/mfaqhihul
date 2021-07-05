@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{font-family:'Montserrat', sans-serif;
+    background-image: url(pemandangan.jpg);
+}
+
+/* nabar */
+nav{
+    display: flex;
+    background-color: hsl(240, 97%, 23%);   
+    justify-content: space-around; 
+    padding: 20px 0;
+    color: hsl(240, 51%, 81%) ;
+      
+}
+
+nav .logo{
+    font-family:'Pacifico', cursive; ;
+    letter-spacing: 3px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+
+
+}
+nav ul li a {
+    color: hsl(240, 51%, 81%) ;
+    text-decoration: none ;
+    font-size: 1em;
+
+}
+
+nav ul li a:hover {
+    color:hsl(240, 52%, 90%) ;
+}
+
+.isi{
+    height:60vh ;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center; 
+}
+.isi::after{
+    display: block;
+    position: absolute;
+
+}
+h2{
+    color:black;
+    font-family: sans-serif;
+    z-index: 5;
+    border: 3px solid;
+    padding: 20PX 25px;
+}
+section{
+    padding: 50px 0;
+}
+
+footer{
+    padding: 30px 0;
+    background-color:  hsl(240, 88%, 44%); 
+    color: white;
+}
